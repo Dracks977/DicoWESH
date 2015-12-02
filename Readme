@@ -1,0 +1,58 @@
+----------Contenues Fichiers ".c"----------
+
+menu.c        >>>> int  menu(t_dico **dico);
+
+menu_suite.c  >>>> int  my_strcmp(char *s1, char *s2);
+	      >>>> void  mfich();
+	      >>>> void  ab(char *rov, t_dico **dico);
+	      >>>> void  undeuxtrois(char *rov, t_dico **dico);
+
+find.c        >>>> void  m_find(t_dico *dico);
+	      >>>> void  m_find2(t_dico *dico);
+
+affich.c      >>>> void  aff(t_dico *dico);
+	      >>>> void  aff2(t_dico *dico);
+
+ajout_def.c   >>>> t_dico  *add(t_dico *dico,  char *fr, char *wh);
+	      >>>> t_dico  *add_f(t_dico *dico):
+
+readline.c    >>>> void  my_putchar(char c);
+	      >>>> void  my_putstr(char *str);
+	      >>>> char  *readLine();
+
+strdup.c      >>>> char  *my_strdup(char *str);
+
+main.c	      >>>> int  main();
+
+strcpy.c      >>>> char  *my_strcpy(char *dest, char *src);
+
+strlen.c      >>>> int  my_strlen(char *str);
+
+
+----------Descriptions des Fonctions----------
+
+aff          >>>> affiche la list sous la forme Wesh : Fr.
+
+aff2	     >>>> recree une list triee sous la forme Fr : Wesh et l'affiche.
+
+menu	     >>>> focntion permetant l'affichage du menu (va de paire avec mfich, undeuxtrois et ab).
+
+mfich	     >>>> affiche les choix dans le menu.
+
+ab	     >>>> fonction auxiliaire du menu permetant de choisir les diferentes options.
+
+undeuxtrois  >>>> fonction auxiliaire du menu permetant de choisir les diferentes options.
+
+my_strcmp    >>>> focntion permetant de comparer deux chaines de carractere.
+
+add	     >>>> permet d'ajouter un element a la liste chainee tout en effectuant un trie a insertion.
+
+add_f	     >>>> fonction aucxiliaire de add permetant de passez en parametre les chaines de carractere entrees par l'utilisateur.
+
+m_find	     >>>> fonction permetant de rechercher un mot en Wesh en d'en afficher sa traduction/definition.
+
+m_find2	     >>>> fonction permetant de rechercher un mot en fr en d'en afficher son equivalent en wesh.
+
+my_strcpy    >>>> copie une chaine de carractere source vers une chaine de carractere cible.
+
+my_strlen    >>>> calcule la longeur d'une chaine de carractere.
